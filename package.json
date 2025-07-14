@@ -9,6 +9,7 @@
     "packages/**"
   ],
   "scripts": {
-    "pug:dev": "nodemon --watch packages/node-express/pug/src --ext ts,json --exec ts-node packages/node-express/pug/src/app.ts"
+    "pug:dev": "nodemon --watch packages/node-express/pug/src --ext ts,json --exec ts-node packages/node-express/pug/src/app.ts",
+    "send-document:dev": "nodemon --watch packages/node-express/send-file/src --ext ts,json --exec ts-node packages/node-express/send-file/src/app.ts"
   }
 }
